@@ -1,0 +1,15 @@
+GitHub backup script - in Bourne shell.
+
+This is a port of clockfort's GitHub-Backup script to Bourne shell.
+
+I would have used the above but Perl still does not ship with LWP.
+
+I almost started writing a Python script since Python does ship both
+a JSON parser and urllib in the standard library, but luckily a closer
+examination of GitHub-Backup revealed that the YAML format is very
+parseable by shell code.
+
+This script uses curl which git requires, therefore it has no dependencies
+beyond those needed by git.
+
+This code is released in the public domain.
