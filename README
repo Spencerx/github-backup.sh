@@ -13,3 +13,10 @@ This script uses curl which git requires, therefore it has no dependencies
 beyond those needed by git.
 
 This code is released in the public domain.
+
+---
+
+Other implementations:
+
+https://github.com/ddollar/github-backup - mountains of Ruby code
+https://github.com/joeyh/github-backup - Haskell
